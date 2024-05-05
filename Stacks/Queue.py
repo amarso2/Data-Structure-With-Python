@@ -1,0 +1,12 @@
+import queue 
+stack =queue.LifoQueue(4)
+stack.put(10)
+stack.put(20)
+stack.put(30)
+stack.put(40)
+stack.put(50, timeout=1) 
+# print(stack)
+# print(stack.get())
+# print(stack.get())
+# print(stack.get())
+# print(stack.get())
